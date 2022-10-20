@@ -1,0 +1,323 @@
+@media (max-width:1199px){
+    .marketplace-top-head h2{
+        font-size: 20px;
+    }
+    .weapon-tabs button a{
+        margin-right: 0;
+        height: 37px;
+    }
+    .buy-now-btn,
+    .box-price-details{
+        width: 100%;
+    }
+    .common-box-head span {
+        font-size: 13px;
+    }
+    ul.avatars-details-list li img {
+        width: 47px;
+        height: 47px;
+    }
+    .heros-details-list button{
+        margin-bottom: 10px;
+    }
+    .dropdown-menu-inventory li{
+        font-size: 14px;
+    }
+    .dropdown-menu-inventory{
+        right: 0;
+        top: 40px;
+    }
+    .left-side-col form .form-group label.label {
+        font-size: 12px;
+        padding: 3px 4px;
+    }
+}
+@media (max-width:1024px){
+    .mystery-boxes-img {
+        height: 116px;
+    }
+    .mystery-boxes-img img {
+        top: -68px;
+    }
+    .mystery-boxes-inner h3{
+        font-size: 18px;
+    }
+    .home-mystery-boxes-wrap {
+        margin-top: 100px;
+    }
+}
+@media (max-width:991px){
+    .navbar-light .navbar-toggler{
+        display: none;
+    } 
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .marketplace-top-head{
+        justify-content: space-between;
+    }
+    .nav.weapon-tabs {
+        position: unset;
+        margin-bottom: 0;
+        justify-content: flex-end;
+        padding-bottom: 16px;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    .marketplace-select-box .custom-select {
+        text-align: right;
+    }
+    h2, .h2 {
+        font-size: 1.3rem;
+    }
+    .all-avatars-box li {
+        max-width: 21.5%;
+        flex: 0 0 21.5%;
+        height: 70px;
+    }
+    .heros-details-list button{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .heros-details-list button > a {
+        margin: 0;
+        width: 100%;
+        padding: 9px 20px;
+    }
+    .heros-details-list{
+        flex-wrap: wrap;
+    }
+    .account-details-list {
+        flex: 0 0 30%;
+        max-width: 30%;
+    }
+    .account-details-col .account-details-tab-content {
+        flex: 0 0 70%;
+        max-width: 70%;
+    }
+    .left-side-col form{
+        flex-wrap: wrap;
+    }
+    .left-side-col form .form-group{
+        width: 100%;
+    }
+    .left-side-col form button{
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .left-side-col form .form-group label.label{
+        font-size: 14px;
+    }
+    .modal-inner-area h4 {
+        font-size: 20px;
+    }
+    .selectCurrency-menu li {
+        font-size: 17px;
+        padding: 3px 17px;
+    }
+    .box-price-details,
+    .btn-style2 img{
+        height: 60px;
+    }
+    .footer-info {
+        padding-bottom: 30px;
+    }
+    .footer-nav-head{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:767px){
+    body{
+        padding-bottom: 15px;
+    }
+    .navbar .navbar-brand{
+        order: 1;
+    }
+    .header-left-side{
+        order: 2;
+        flex-direction: column-reverse;
+    }
+    .navbar-nav{
+        order: 3;
+        width: 100%;
+        justify-content: center;
+        margin-top: 20px !important;
+    }
+    .help-center-wrap{
+        margin: 15px 0 0;
+    }
+    .marketplace-top-head {
+        margin-top: 30px;
+    }
+    .fillter-bar-box{
+        padding: 10px;
+        display: none;
+    }
+    .nav.weapon-tabs{
+        justify-content: space-between;
+    }
+    .fillter-bar-box > div:not(:last-child) {
+        margin-bottom:5px
+    }
+    .filterBtn{
+        display: block !important;
+        margin-top: -55px;
+        margin-left: auto;
+    }
+    .popular-questions-inner {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .popular-questions-inner:nth-child(3n), .popular-questions-inner:nth-child(6n) {
+        border-right: 1px solid;
+    }
+    .account-details-list,
+    .account-details-col .account-details-tab-content {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .account-details-list{
+        min-height: auto;
+    }
+    .account-details-col{
+        flex-wrap: wrap;
+    }
+    .account-details-col .account-details-tab-content{
+        padding: 30px 0 0;
+    }
+    .filterOpenClose{
+       margin-top: 40px;
+    }
+    .checkout-price-details{
+        height: auto;
+    }
+    
+    .wallet-icon-box {
+        width: 60px;
+        height: 60px;
+    }
+    .connect-wallet-wrap img {
+        width: 25px;
+    }
+    .checkIcon {
+        width: 50px;
+        height: 50px;
+    }
+    .all-question-box .form-group textarea {
+        height: 130px;
+    }
+    .toggleFilter{
+        display:none !important;
+    }
+    .filterOpenClose,
+    .showFilter{
+        display: block !important;
+    }
+    .modal-footer button:only-child{
+        margin-bottom:0 !important;
+    }
+}
+@media (max-width:575px){
+    .mystery-boxes-img {
+        height: 140px;
+    }
+    h1, .h1 {
+        font-size: 30px;
+    }
+    .modal-form-inner button.btn {
+        height: 43px;
+        padding: 0.2rem 0.6rem;
+        font-size: 11px;
+        width: 90px;
+    }
+    .common-box-inner h3 {
+        font-size: 19px;
+    }
+    .available-details-head h2{
+        font-size: 30px;
+    }
+    .avatar-details-tab .nav button {
+        flex: 1 0 auto;
+        margin: 5px 0;
+    }
+    .modal-inner-area h4 {
+        font-size: 18px;
+    }
+    .checkIcon {
+        width: 45px;
+        height: 45px;
+        margin-bottom: 15px;
+    }
+    .account-details-list button a {
+        padding: 12px 17px;
+    }
+    .marketplace-select-box .dropdown-data-shower {
+        padding: 11.5px 11px;
+        font-size: 14px;
+    }
+}
+@media (max-width:480px){
+    .full-width-480{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .weapon-tabs button a {
+        width: 98px;
+    }
+    .filterBtn {
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .available-hero-wrap img {
+        flex: 0 0 15%;
+        max-width: 15%;
+    }
+    .box-style-wrap h4{
+        font-size: 16px;
+    }
+    .popular-questions-inner {
+        flex: 0 0 100%;
+        max-width: 100%;
+        padding: 10px 35px;
+        border-right: 0;
+    }
+    .popular-questions-inner:nth-child(3n),
+    .popular-questions-inner:nth-child(6n){
+        border-right: 0;
+    }
+    .how-help-search{
+        width: 80%;
+    }
+    .all-question-box h3{
+        font-size: 18px;
+    }
+    .all-avatars-box li {
+        max-width: 29%;
+        flex: 0 0 29%;
+        height: 70px;
+    }
+    .mystery-box-img {
+        height: 250px;
+    }
+    .modal-inner-area .checkout-box-wrap{
+        flex-direction: column;
+    }
+    .modal-inner-area .checkout-price-details{
+        align-items: flex-end;
+    }
+}
+@media (max-width:420px){
+    .modal-footer {
+        flex-direction: column;
+    }
+    .modal-footer button {
+        width: 100%;
+        display: block;
+        max-width: 100%;
+        margin: 5px 0 !important;
+    }
+    .modal-footer1 button,
+    .modal-footer button.btn.btn-primary{
+        height: 45px;
+    }
+}

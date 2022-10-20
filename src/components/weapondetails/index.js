@@ -1,0 +1,1 @@
+export {default as WeaponDetails} from "./WeaponDetails";

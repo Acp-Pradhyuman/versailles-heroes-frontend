@@ -1,0 +1,1 @@
+export {default as CheckoutModal1} from './CheckoutModal1';

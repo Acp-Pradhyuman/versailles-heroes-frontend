@@ -1,0 +1,1 @@
+export {default as PurchaseCompleted1} from './purchaseCompleted1';
